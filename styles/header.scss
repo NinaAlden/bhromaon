@@ -61,3 +61,20 @@ h1 {
     align-items: center; 
     justify-items: center;
 }
+/*adjustmenst for smaller screens*/ 
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .content-box-header {
+        width: 100%;
+        justify-content: space-around;
+    }
+    h1 {
+        position:relative;
+        top: 15px;
+    }
+    .nav-bar {
+        padding: 10px;
+        width: 100%;
+        flex-direction: column;
+    }
+
+}
