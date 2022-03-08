@@ -89,7 +89,6 @@ main {
     background: #5474FD;
     opacity: 0.9;
     position: relative;
-    
 }
 .right {
     justify-content: flex-end;
@@ -118,32 +117,74 @@ main {
 }
 /*adjustmenst for smaller screens*/ 
 @media screen and (min-width: 320px) and (max-width: 768px) {
-    .content-box {
-        display: none;
-        width: 100%;
-        background-color: yellow;
+    main {
         flex-wrap: wrap;
     }
+    .section {
+        position: relative;
+    }
+    .content-box {
+        height: 100%;
+        max-width: 100%;
+        position: absolute;
+        z-index: 1;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    /*section 2*/ 
     .text-box {
-        width: 100%;
-        padding-right: 10px;
+        box-sizing: border-box;
+        padding-left: 5px;
+        max-width: 100%;
     }
     .pic-box {
         display: none;
-        
     }
     .small-pic1 {
         display: none;
-        
+        min-height: 210px;
+        max-width: 340px;
+        padding-bottom: 5px;
     }
     .small-pic2 {
         display: none;
-      
+        min-height: 210px;
+        max-width: 340px;
+        align-self: flex-end;
+    }
+    
+    /*break*/
+    .icon-break{
+        min-height: 110px;
+    }
+    
+    /*section 3 + 4*/ 
+    .info-box {
+        padding: 5px;
+        max-width: 100%;
+        background-color: #2323239a;
+    }
+    .page-button {
+        min-height: 42px;
+        min-width: 50px;
+        bottom: 5px;
+    }
+    /*section 5*/ 
+    .story-box {
+        background-color:#333333b9;
     }
     .content-box-column {
-        display: none;
-        
-        
+        max-height: 100%;
+        max-width: 100%;
     }
+    .text-section {
+        max-width: 100%;
+        padding: 5px;
+    }
+    .small-pic3 {
+        display: none;
+    }
+    
 }
 

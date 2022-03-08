@@ -150,20 +150,20 @@ button {
         line-height: 30px;
     }
     h2 {
-        font-size: 20px;
-        line-height: 18px;
+        font-size: 15px;
+        line-height: 10px;
     }
     h3 {
         font-size: 20px;
-        line-height: 15px;
+        line-height: 4px;
     }
     h5, h4 {
-        font-size: 16px;
-        line-height: 18px;
+        font-size: 12px;
+        line-height: 0px;
     }
     .main-text {
-        font-size: 14px;
-        line-height: 16px;
+        font-size: 12px;
+        line-height: 14px;
         letter-spacing: 0px;
         color: #E8E8E8;
     }
@@ -178,7 +178,9 @@ button {
         font-size: 10px;
         line-height: 0px;
     }
-    
+    button {
+        font-size: 12px;
+    }
     /*all styles for fontawesome*/
     .fa {
         font-size: 28px;
