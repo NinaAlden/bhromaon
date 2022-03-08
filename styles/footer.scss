@@ -2,4 +2,18 @@ footer {
     min-height: 271px;
     max-width: 100%;
     background: #232323;;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.logo-container {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+.end-logo {
+    position: relative;
+    top: 15px;
 }
